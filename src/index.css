@@ -11,5 +11,18 @@
 html,
 body {
   height: 100%;
-  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'pt-sans-caption-regular';
+  src: url('/fonts/PTSansCaption-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt-sans-caption-bold';
+  src: url('/fonts/PTSansCaption-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
