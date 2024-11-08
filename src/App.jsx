@@ -1,6 +1,14 @@
+import { Footer, Header } from './components/layout';
+import { HomePage } from './pages';
+
 function App() {
-  return <><p className="bg-red-300">
-    123123</p>Hello World!</>;
+  return (
+    <>
+      <Header />
+      <HomePage />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
