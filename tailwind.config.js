@@ -11,11 +11,14 @@ export default {
       boxShadow: {
         'custom-sm': '0px 3px 6px #00000012',
         'custom-md': '0px 10px 20px #00000017',
+        'custom-smooth': '1px 10px 30px #0000000F',
       },
       colors: {
         'main-tx-color': '#333333',
         'secondary-tx-color': '#362E29',
         'custom-green': '#23B21F',
+        'custom-brown': '#B08F6D',
+        'custom-gold': '#FFF9F0',
       },
     },
   },
