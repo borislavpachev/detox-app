@@ -7,13 +7,13 @@ import {
 
 export default function Card() {
   return (
-    <div className="flex flex-col md:flex-row w-full md:w-[605px] md:gap-8 bg-red relative font-pt-sans-regular shadow-custom-lg rounded-[24px]">
+    <div className="flex flex-col md:flex-row w-full md:w-[605px] md:gap-7 bg-white relative font-pt-sans-regular shadow-custom-lg rounded-[24px]">
       <div className="relative w-full md:w-1/2">
         <div className="flex md:absolute w-full bottom-10 left-7 items-center justify-center">
           <img
             src="/img/images/try-detox-bag.png"
             alt="A bad of Detox tea"
-            className="w-[260px]"
+            className="w-[260px] h-[348px]"
           />
         </div>
       </div>
