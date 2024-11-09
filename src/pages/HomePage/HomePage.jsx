@@ -1,10 +1,11 @@
-import { BMICalculator, Hero } from './components';
+import { BMICalculator, Hero, ProductSection } from './components';
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="flex flex-col gap-14">
       <Hero />
-      <BMICalculator/>
+      <BMICalculator />
+      <ProductSection />
     </div>
   );
 }
