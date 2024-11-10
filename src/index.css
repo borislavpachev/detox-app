@@ -26,3 +26,8 @@ body {
   font-weight: bold;
   font-style: normal;
 }
+
+.transform-boxes {
+  @apply transform;
+  transform: matrix(1, 0.02, -0.02, 1, 0, 0);
+}

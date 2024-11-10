@@ -12,6 +12,7 @@ export default {
         'custom-sm': '0px 3px 6px #00000012',
         'custom-md': '0px 10px 20px #00000017',
         'custom-lg': '0px 20px 40px #0000001F',
+        'custom-card': '0px 10px 20px #0000000F',
         'custom-smooth': '1px 10px 30px #0000000F',
       },
       colors: {
@@ -22,6 +23,7 @@ export default {
         'custom-light-gold': '#FEFAF2',
         'custom-gold': '#FFF9F0',
         'custom-white': '#FFFFFF48',
+        'custom-light-gray': '#B9B9B9',
         'custom-gray': '#AAAAAA',
       },
     },
