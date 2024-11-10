@@ -1,4 +1,4 @@
-import { Card } from '@/components';
+import { ProductCard } from '@/components';
 import { Button } from '@/components/buttons';
 
 export default function ProductSection() {
@@ -8,9 +8,9 @@ export default function ProductSection() {
      p-10 md:p-24 gap-14 bg-custom-light-gold"
     >
       <div className="w-full md:w-auto">
-        <Card />
+        <ProductCard />
       </div>
-      <div className="flex flex-col w-full md:max-w-[419px]  text-main-tx-color p-5 md:p-0">
+      <div className="flex flex-col w-full md:max-w-[419px] items-center md:items-start text-main-tx-color p-5 md:p-0">
         <h1 className="text-[25px] leading-[32px]">
           Изпробвай <span className="font-pt-sans-bold">Detox</span>
         </h1>
