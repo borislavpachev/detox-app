@@ -14,23 +14,25 @@ export default function Hero() {
         <img
           src="/img/images/girl-hero-section.png"
           alt="Girl holding a cup of tea"
-          className=" w-full md:w-[374px] md:h-[505px] object-cover"
+          className="w-full md:w-[374px] md:h-[505px] object-cover"
         />
       </div>
 
-      <div className="px-24 py-20 ml-0 md:ml-[45px] md:mt-[80px] w-full md:w-3/5 relative">
-        <div className="flex md:hidden">
+      <div
+        className="px-10 md:px-24 py-8 md:py-20 ml-0 md:ml-[55px] md:mt-[80px]
+       w-full md:w-3/5 relative justify-center item-center
+       text-secondary-tx-color text-[42px] leading-[55px]"
+      >
+        <div className="flex w-[180px] md:hidden">
           <LogoIcon width={180} height={60} fill="#23B21F" />
         </div>
         <div className="hidden md:flex">
           <LogoIcon width={260} height={80} fill="#23B21F" />
         </div>
-        <p className="mt-3 text-[42px] font-pt-sans-regular text-secondary-tx-color">
+        <p className="mt-3 font-pt-sans-regular">
           Health and effective
         </p>
-        <p className="font-pt-sans-bold text-[42px] leading-10 text-secondary-tx-color">
-          slimming
-        </p>
+        <p className="font-pt-sans-bold">slimming</p>
         <img
           src="/img/images/blurred-bag-right-hero.png"
           alt="Blurred Tea Package"
