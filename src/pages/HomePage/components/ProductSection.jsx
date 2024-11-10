@@ -5,7 +5,7 @@ export default function ProductSection() {
   return (
     <section
       className="flex flex-wrap flex-col md:flex-row items-center justify-center
-     p-10 md:p-24 gap-14 bg-custom-light-gold"
+     p-10 md:p-24 gap-14 bg-custom-light-gold text-main-tx-color"
     >
       <div className="w-full md:w-auto">
         <ProductCard />

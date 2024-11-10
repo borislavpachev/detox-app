@@ -4,7 +4,7 @@ export default function BMICalculator() {
   return (
     <section
       className="flex flex-col md:flex-row w-full p-6 md:p-28
-      justify-center items-center relative"
+      justify-center items-center text-main-tx-color relative"
     >
       <div
         className="flex px-12 py-10 md:py-[56px] md:px-[91px] md:h-auto md:w-[950px]
@@ -34,7 +34,7 @@ export default function BMICalculator() {
             Нормално, Наднормено тегло или сте със Затлъстяване.
           </p>
           <Button>
-            <span>калкулатор</span>
+            <span>отвори калкулатора</span>
           </Button>
         </div>
       </div>

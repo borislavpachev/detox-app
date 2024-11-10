@@ -19,11 +19,11 @@ export default function Hero() {
       </div>
 
       <div
-        className="px-10 md:px-24 py-8 md:py-20 ml-0 md:ml-[55px] md:mt-[80px]
+        className="px-6 md:px-24 py-8 md:py-20 ml-0 md:ml-[55px] md:mt-[80px]
        w-full md:w-3/5 relative justify-center item-center
-       text-secondary-tx-color text-[42px] leading-[55px]"
+       text-secondary-tx-color text-2xl leading-10 md:text-[42px] md:leading-[55px]"
       >
-        <div className="flex w-[180px] md:hidden">
+        <div className="flex w-full md:hidden">
           <LogoIcon width={180} height={60} fill="#23B21F" />
         </div>
         <div className="hidden md:flex">

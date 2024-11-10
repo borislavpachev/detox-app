@@ -3,7 +3,7 @@ import { whyDetoxIcons } from '@/utils/constants';
 
 export default function WhyDetox() {
   return (
-    <section className="flex flex-col text-center">
+    <section className="flex flex-col text-main-tx-color text-center">
       <div
         className="flex flex-col text-2xl md:mb-[63px] md:text-[60px]
       md:leading-[78px] md:mx-[300px] font-pt-sans-regular"
