@@ -4,37 +4,36 @@ import {
   socialMediaIcons,
 } from '@/utils/constants';
 
+const navLinks = [
+  'Начало',
+  'Поръчай',
+  'Въпроси',
+  'Доставка',
+  'Плащане',
+  'Лични данни',
+  'Общи условия',
+];
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="h-auto md:h-[436px] mt-[54px] px-20 md:px-[328px] flex flex-col justify-start items-center">
+    <footer className="h-auto md:h-[436px] mt-[54px] px-20 md:px-[328px] border-t-2 pt-[54px] flex flex-col justify-start items-center">
       <p className="mb-6 text-[10px] text-main-tx-color text-center font-pt-sans-regular opacity-[1]">
         * Резултатите от приема на Detox чай са индивидуални за различните
         потребители и зависят от техните физически показатели и навици!
       </p>
 
-      <ul className="text-[14px] flex flex-col md:flex-row w-full items-center justify-center gap-1 md:gap-[36.5px] opacity-[0.26]">
-        <li>
-          <span>Начало</span>
-        </li>
-        <li>
-          <span>Поръчай</span>
-        </li>
-        <li>
-          <span>Въпроси</span>
-        </li>
-        <li>
-          <span>Доставка</span>
-        </li>
-        <li>
-          <span>Плащане</span>
-        </li>
-        <li>
-          <span>Лични данни</span>
-        </li>
-        <li>
-          <span>Общи условия</span>
-        </li>
+      <ul className="text-[14px] flex flex-col md:flex-row w-full items-center justify-center gap-1 md:gap-[36.5px]">
+        {navLinks.map((navLink) => {
+          return (
+            <li
+              key={navLink}
+              className="cursor-pointer opacity-[0.26] hover:opacity-100 hover:text-main-tx-color"
+            >
+              <span>{navLink}</span>
+            </li>
+          );
+        })}
       </ul>
 
       <p className="mt-[33.5px] mb-[14.6px] text-[12px] font-pt-sans-bold">
