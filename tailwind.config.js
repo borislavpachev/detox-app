@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'pt-sans-regular': ['pt-sans-caption-regular', 'sans-serif'],
-        'pt-sans-bold': ['pt-sans-caption-bold', 'sans-serif'],
+        'pt-sans-regular': ['PTSansCaption-Regular', 'sans-serif'],
+        'pt-sans-bold': ['PTSansCaption-Bold', 'sans-serif'],
         chicle: ['Chicle', 'sans-serif'],
       },
       boxShadow: {
@@ -14,6 +14,7 @@ export default {
         'custom-lg': '0px 20px 40px #0000001F',
         'custom-card': '0px 10px 20px #0000000F',
         'custom-smooth': '1px 10px 30px #0000000F',
+        'custom-inner': 'inset 0 0 4px 2px rgba(0, 0, 0, 0.2)',
       },
       colors: {
         'main-tx-color': '#333333',
