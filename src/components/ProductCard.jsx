@@ -13,7 +13,7 @@ export default function ProductCard() {
           <img
             src="/img/images/try-detox-bag.png"
             alt="A bag of Detox tea"
-            className="w-[260px] h-[348px]"
+            className="object-cover w-full md:w-[260px] md:h-[348px]"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function ProductCard() {
           <span>Pack for 1 month</span>{' '}
           <span className="text-custom-gray">/ 170gr.</span>{' '}
         </p>
-        <p className="text-[42px] font-pt-sans-bold leading-[55px]">
+        <p className="text-[36px] md:text-[42px] font-pt-sans-bold md:leading-[55px]">
           109.00 лв.
         </p>
         <div className="relative">
