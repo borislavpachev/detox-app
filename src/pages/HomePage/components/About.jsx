@@ -1,5 +1,6 @@
 import { AboutElement } from '@/components';
 import { BodyClockIcon, BowlIcon, DetoxIcon } from '@/components/icons';
+import { Section } from '@/components/layout';
 import { aboutData } from '@/utils/constants';
 import { useState } from 'react';
 
@@ -11,7 +12,7 @@ export default function About() {
   };
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-14 p-10 md:p-16">
+    <Section className="items-center justify-center gap-14 p-10 md:p-16">
       <div className="flex w-full h-full md:w-[569px] md:h-[569px] rounded-[50%] items-center justify-center bg-custom-gold">
         <img
           src="/img/images/about-product-bag.png"
@@ -19,7 +20,7 @@ export default function About() {
           className="p-5 md:p-0 w-full md:w-[354px] md:h-[474px] object-cover"
         />
       </div>
-      <div className="max-w-xl font-pt-sans-regular py-0 md:py-24 text-main-tx-color">
+      <div className="max-w-xl font-pt-sans-regular py-0 md:py-24">
         <div className="flex flex-col md:flex-row items-center justify-start gap-7">
           <h1 className="text-[40px] font-pt-sans-bold leading-[52px]">
             За Продукта
@@ -54,6 +55,6 @@ export default function About() {
           )}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
