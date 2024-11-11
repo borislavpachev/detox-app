@@ -8,7 +8,7 @@ import {
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col gap-14">
+    <div className="flex flex-col gap7 md:gap-14">
       <Hero />
       <About />
       <WhyDetox />
