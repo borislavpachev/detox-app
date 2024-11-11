@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-export default function ScrollCard({ data }) {
+export default function ScrollCard({ data, text }) {
   return (
-    <div className="group">
+    <div className="scroll-card group">
       <div className="group-hover:relative rounded-[10px] w-[260px] h-[261px] group-hover:border-[3px] group-hover:border-custom-green">
         <div
           className="flex flex-col w-[265px] h-[265px] items-center justify-center bg-white shadow-custom-card rounded-[10px]
@@ -12,8 +12,8 @@ export default function ScrollCard({ data }) {
           <div className="flex items-center justify-center mb-[29px]">
             <img src={data.src} alt={data.alt} />
           </div>
-          <div className="w-[169px]">
-            <p className="leading-[23px] line-clamp-2">{data.text}</p>
+          <div className="p-6 leading-[23px]">
+            <p>{text}</p>
           </div>
         </div>
       </div>
@@ -23,8 +23,8 @@ export default function ScrollCard({ data }) {
 
 ScrollCard.propTypes = {
   data: PropTypes.shape({
-    text: PropTypes.string.isRequired,
     alt: PropTypes.string.isRequired,
     src: PropTypes.string.isRequired,
   }).isRequired,
+  text: PropTypes.any,
 };

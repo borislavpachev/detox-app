@@ -50,22 +50,18 @@ export const aboutData = {
 
 export const whyDetoxIcons = [
   {
-    text: 'СЪДЪРЖА 100% ЧИСТИ БИЛКИ',
     alt: 'Leaf with Green Background',
     src: '/img/svg/why-to-consume-leaf.svg',
   },
   {
-    text: 'ЗАСИЛВА И УКРЕПВА ИМУННАТА СИСТЕМА',
     alt: 'Flexed Muscle',
     src: '/img/svg/why-to-consume-muscle.svg',
   },
   {
-    text: 'БОГАТ НА ВАЖНИ ВИТАМИНИ И МИНЕРАЛИ',
     alt: 'Vitamins C,D,B12 in A Circle',
     src: '/img/svg/why-to-consume-skin-treatment.svg',
   },
   {
-    text: 'ХИДРАТИРА И ИЗГЛАЖДА КОЖАТА',
     alt: 'Woman Body Silhouette',
     src: '/img/svg/why-to-consume-vitamins.svg',
   },
