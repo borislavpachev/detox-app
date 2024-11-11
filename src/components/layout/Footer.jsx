@@ -17,8 +17,8 @@ const navLinks = [
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="h-auto md:h-[436px] mt-[54px] px-20 md:px-[328px] border-t-2 pt-[54px] flex flex-col justify-start items-center">
-      <p className="mb-6 text-[10px] text-main-tx-color text-center font-pt-sans-regular opacity-[1]">
+    <footer className="h-auto px-20 md:px-[328px] border-t-2 pt-[54px] pb-[75px] flex flex-col justify-start items-center">
+      <p className="mb-6 text-[10px] text-main-tx-color text-center font-pt-sans-regular">
         * Резултатите от приема на Detox чай са индивидуални за различните
         потребители и зависят от техните физически показатели и навици!
       </p>
