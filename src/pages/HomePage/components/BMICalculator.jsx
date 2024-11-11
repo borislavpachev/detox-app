@@ -1,4 +1,4 @@
-import { Button } from '@/components/buttons';
+import { SecondaryButton } from '@/components/buttons';
 
 export default function BMICalculator() {
   return (
@@ -7,7 +7,7 @@ export default function BMICalculator() {
       justify-center items-center text-main-tx-color relative"
     >
       <div
-        className="flex px-12 py-10 md:py-[56px] md:px-[91px] md:h-auto md:w-[950px]
+        className="flex px-10 py-10 md:py-[56px] md:px-[91px] md:h-auto md:w-[950px]
         shadow-custom-smooth rounded-[22px] relative"
       >
         <div
@@ -21,8 +21,8 @@ export default function BMICalculator() {
            from-custom-gold via-custom-gold/85 to-custom-gold/75"
         ></div>
 
-        <div className="relative z-10 mr-auto max-w-[550px]">
-          <h1 className="text-[25px]">
+        <div className="relative z-10 w-full text-center md:text-start md:mr-auto md:max-w-[550px]">
+          <h1 className="text-xl md:text-[25px]">
             Разбери своят{' '}
             <span className="font-pt-sans-bold">
               индекс на телесна маса (BMI)
@@ -33,9 +33,9 @@ export default function BMICalculator() {
             показва дали според вашите физически показатели имате Поднормено,
             Нормално, Наднормено тегло или сте със Затлъстяване.
           </p>
-          <Button>
+          <SecondaryButton>
             <span>отвори калкулатора</span>
-          </Button>
+          </SecondaryButton>
         </div>
       </div>
       <div className="relative md:absolute md:bottom-0 md:right-[111px]">
