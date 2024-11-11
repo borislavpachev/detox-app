@@ -53,8 +53,8 @@ export default function SecondaryButton({ children }) {
     <>
       <button
         ref={buttonRef}
-        className="relative bg-custom-green px-5 py-2 rounded-3xl text-white overflow-hidden hover:text-custom-green
-        hover:border-custom-green z-0"
+        className="relative bg-custom-green border-transparent border-2 px-5 md:px-10 py-2 rounded-3xl text-white overflow-hidden hover:text-custom-green
+        hover:border-custom-green hover:border-2 z-0"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onMouseMove={(e) => {
@@ -66,7 +66,7 @@ export default function SecondaryButton({ children }) {
           className="absolute w-[250px] h-[150px] bg-white left-0 top-0 -z-10 
           pointer-events-none rounded-[50%]"
         ></div>
-        <span className="font-pt-sans-bold uppercase">{children}</span>
+        <p className="font-pt-sans-bold uppercase">{children}</p>
       </button>
     </>
   );
