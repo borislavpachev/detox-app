@@ -21,7 +21,7 @@ export default function ProductCard() {
         className="flex flex-col items-center md:items-start
       font-pt-sans-bold mt-[71px] mb-[56px] w-full md:w-1/2"
       >
-        <div className="flex flex-col md:flex-row gap-7 items-center justify-center mb-[22px]">
+        <div className="flex gap-3 md:gap-7 items-center justify-center mb-[22px]">
           <TestPeriodIcon fill="grey" />
           <TruckDeliveryIcon fill="grey" />
           <MoneyIcon fill="grey" />
@@ -31,7 +31,7 @@ export default function ProductCard() {
           <span>Pack for 1 month</span>{' '}
           <span className="text-custom-gray">/ 170gr.</span>{' '}
         </p>
-        <p className="text-[36px] md:text-[42px] font-pt-sans-bold md:leading-[55px]">
+        <p className="text-[32px] md:text-[42px] font-pt-sans-bold md:leading-[55px]">
           109.00 лв.
         </p>
         <div className="relative">
