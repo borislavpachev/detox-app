@@ -11,12 +11,12 @@ export default function About() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center gap-14 md:flex-row p-10 md:p-24">
-      <div className="flex w-full md:w-[569px] md:h-[569px] rounded-[50%] items-center justify-center bg-custom-gold">
+    <section className="flex flex-col md:flex-row items-center justify-center gap-14 p-10 md:p-16">
+      <div className="flex w-full h-full md:w-[569px] md:h-[569px] rounded-[50%] items-center justify-center bg-custom-gold">
         <img
           src="/img/images/about-product-bag.png"
           alt="A bag of Detox tea"
-          className="p-5 md:p-0 w-full md:w-[354px] h-[474px] object-cover"
+          className="p-5 md:p-0 w-full md:w-[354px] md:h-[474px] object-cover"
         />
       </div>
       <div className="max-w-xl font-pt-sans-regular py-0 md:py-24 text-main-tx-color">
@@ -45,7 +45,7 @@ export default function About() {
             );
           })}
         </div>
-        <div className="flex flex-col text-[14px] gap-8 leading-[23px]">
+        <div className="flex flex-col text-center md:text-start text-[14px] gap-8 leading-[23px]">
           {aboutData[selected] && (
             <>
               <p>{aboutData[selected].p1}</p>
