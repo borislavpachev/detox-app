@@ -5,4 +5,4 @@ export { default as TestPeriodIcon } from './TestPeriodIcon';
 export { default as BowlIcon } from './BowlIcon';
 export { default as BodyClockIcon } from './BodyClockIcon';
 export { default as DetoxIcon } from './DetoxIcon';
-
+export { default as DownArrowIcon } from './DownArrowIcon';
