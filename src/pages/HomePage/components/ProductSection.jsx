@@ -6,7 +6,7 @@ export default function ProductSection() {
   return (
     <Section
       className="flex-wrap items-center justify-center
-     p-10 gap-14 lg:gap-24 bg-custom-light-gold"
+     p-5 mt-5 md:mt-0 gap-14 lg:gap-24 bg-custom-light-gold"
     >
       <div className="w-full md:w-auto">
         <ProductCard />

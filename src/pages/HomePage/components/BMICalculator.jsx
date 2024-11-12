@@ -3,9 +3,9 @@ import { Section } from '@/components/layout';
 
 export default function BMICalculator() {
   return (
-    <Section className="p-10 md:p-28 items-center justify-center relative">
+    <Section className="p-5 md:p-28 items-center justify-center relative">
       <div
-        className="relative flex px-10 py-10 w-full md:py-[56px] md:px-[91px] md:h-[300px] md:w-[950px]
+        className="relative flex px-5 py-0 w-full md:py-[56px] md:px-[91px] md:h-[300px] md:w-[950px]
         shadow-custom-smooth rounded-[22px]"
       >
         <div
