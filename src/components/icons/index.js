@@ -6,3 +6,5 @@ export { default as BowlIcon } from './BowlIcon';
 export { default as BodyClockIcon } from './BodyClockIcon';
 export { default as DetoxIcon } from './DetoxIcon';
 export { default as DownArrowIcon } from './DownArrowIcon';
+export { default as CloseIcon } from './CloseIcon';
+export { default as HamburgerIcon } from './HamburgerIcon';
