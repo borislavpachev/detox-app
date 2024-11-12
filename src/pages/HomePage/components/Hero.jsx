@@ -1,8 +1,23 @@
 import { LearnMore } from '@/components';
 import { LogoIcon } from '@/components/icons';
 import { Section } from '@/components/layout';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { useRef } from 'react';
+import { TextPlugin } from 'gsap/TextPlugin';
+
+gsap.registerPlugin(TextPlugin);
 
 export default function Hero() {
+  const slimmingRef = useRef();
+  useGSAP(() => {
+    gsap.to(slimmingRef.current, {
+      duration: 2,
+      text: 'slimming',
+      ease: 'power4.inOut',
+    });
+  });
+
   return (
     <Section className="my-10 relative">
       <div className="flex w-full items-center justify-center md:w-2/5">
@@ -16,7 +31,7 @@ export default function Hero() {
         <img
           src="/img/images/girl-hero-section.png"
           alt="Girl holding a cup of tea"
-          className="w-full md:w-[374px] md:h-[505px] object-cover"
+          className="hidden md:flex md:w-[374px] md:h-[505px] object-cover"
         />
       </div>
 
@@ -32,7 +47,7 @@ export default function Hero() {
           <LogoIcon width={260} height={80} fill="#23B21F" />
         </div>
         <p className="mt-3 font-pt-sans-regular">Health and effective</p>
-        <p className="font-pt-sans-bold">slimming</p>
+        <p ref={slimmingRef} className="font-pt-sans-bold"></p>
         <img
           src="/img/images/blurred-bag-right-hero.png"
           alt="Blurred Tea Package"
