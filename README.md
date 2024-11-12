@@ -1,8 +1,49 @@
-# React + Vite
+# Detox App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+Product Landing page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Deployment**: https://detox-app-lime.vercel.app/
+- **Responsive UI**: Fully responsive design built with React and Tailwind CSS.
+- **Animations**: Using GSAP
+- **Conventional commits**: The commits are following conventional commits specification
+- **Absolute imports**: Provides more clear importing to project structure
+
+### Prerequisites
+
+```
+Node.js (v12+)
+```
+
+### Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/borislavpachev/detox-app.git
+```
+
+Install dependencies
+
+```
+cd detox-app
+npm install
+```
+
+### Running the App
+
+```
+cd detox-app
+npm run dev
+```
+
+Visit http://localhost:5173/
+
+## Contact
+
+- Name: Borislav Pachev
+- Email: borislav.pachev@gmail.com
+- [ LinkedIn ](https://www.linkedin.com/in/borislav-pachev)
