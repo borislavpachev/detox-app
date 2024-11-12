@@ -21,14 +21,15 @@ export default function Header() {
       >
         <LogoIcon />
 
-        <div className="md:hidden">
-          <button onClick={toggleDropdown}>
-            {isDropdownOpen ? (
-              <CloseIcon size={30} color="#333333" />
-            ) : (
-              <HamburgerIcon size={30} color="#333333" />
-            )}
-          </button>
+        <div
+          className="md:hidden flex items-center"
+          onClick={toggleDropdown}
+        >
+          {isDropdownOpen ? (
+            <CloseIcon size={35} color="#333333" />
+          ) : (
+            <HamburgerIcon size={35} color="#333333" />
+          )}
         </div>
       </div>
       <nav
